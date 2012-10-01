@@ -73,7 +73,7 @@ jasmine.getStyleFixtures = function() {
 jasmine.Fixtures = function() {
   this.containerId = 'jasmine-fixtures'
   this.fixturesCache_ = {}
-  this.fixturesPath = 'spec/javascripts/fixtures'
+  this.fixturesPath = 'assets/fixtures'
 }
 
 jasmine.Fixtures.prototype.set = function(html) {
@@ -169,7 +169,7 @@ jasmine.Fixtures.prototype.proxyCallTo_ = function(methodName, passedArguments) 
 jasmine.StyleFixtures = function() {
   this.fixturesCache_ = {}
   this.fixturesNodes_ = []
-  this.fixturesPath = 'spec/javascripts/fixtures'
+  this.fixturesPath = 'assets/fixtures'
 }
 
 jasmine.StyleFixtures.prototype.set = function(css) {
@@ -228,7 +228,7 @@ jasmine.getJSONFixtures = function() {
 
 jasmine.JSONFixtures = function() {
   this.fixturesCache_ = {}
-  this.fixturesPath = 'spec/javascripts/fixtures/json'
+  this.fixturesPath = 'assets/fixtures/json'
 }
 
 jasmine.JSONFixtures.prototype.load = function() {
